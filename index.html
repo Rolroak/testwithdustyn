@@ -14,6 +14,14 @@
     <body data-gr-c-s-loaded="true">
     
     <div class="container-fluid">
+        <nav class="navbar">
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Blog</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </nav>
         <div class="row">
         <div class="col-md-4 alert-success">
             <p>I Failed</p>
@@ -53,7 +61,7 @@
     </div>
 
     <div class="row">
-        <div class="col-md-4">
+        <div class="col-md-4 alert-danger">
             <div class="row">
             <div class="well col-md-12">
             <h2>Article</h2>
@@ -74,9 +82,9 @@
                     luctus egestas justo at placerat. <a href="">Read more.</a>
                 </p>
                 </div>
-                </div>
+            </div>
 
-                <div class="row">
+            <div class="row">
                     <div class="well col-md-12">
                     <h2>Article</h2>
                     <p><img style="width:10rem;" class="float-left" src="https://cdn.shopify.com/s/files/1/0533/2089/files/placeholder-images-image_large.png?format=jpg&quality=90&v=1530129081"> Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
@@ -85,7 +93,7 @@
                         luctus egestas justo at placerat. <a href="">Read more.</a>
                     </p>
                     </div>
-                    </div>
+                </div>
            
      
 
@@ -94,10 +102,11 @@
           
         </div>
 
-        <div class="col-md-4">
+        <div class="col-md-4 alert-warning">
             <h2 class="text-center">Latest Blog Article</h2>
             <p class="text-center"><img style="width:75%;" src="https://therajdhani.com/wp-content/uploads/2019/04/vga.png"></p>
-            <p class="text-justify">Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+            <p style="width:100%;" class="text-justify text-center">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
                 In quis efficitur tortor. Vivamus sit amet turpis diam. 
                 Maecenas tristique sodales lorem, ut congue tellus. Praesent 
                 luctus egestas justo at placerat. Pellentesque a lectus mollis
@@ -112,7 +121,7 @@
 
         </div>
 
-        <div class="col-md-4">
+        <div class="col-md-4 alert-primary">
             <div class="input-group mb-3">
                 <div class="input-group-prepend">
                   <span class="input-group-text" id="basic-addon1"><i class="fas fa-search"></i></span>
@@ -135,6 +144,11 @@
     content: "";
     clear: both;
      display: table;
+}
+
+nav ul li {
+    display:inline;
+    padding:0.5em;
 }
 </style>
     
