@@ -6,65 +6,137 @@
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>  
     <!-- end the Bootstrap Stuff-->
+    <!-- Add icon library -->
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+<script type='text/javascript' src='//platform-api.sharethis.com/js/sharethis.js#property=5cdcc24e7f177d00120fa312&product=sop' async='async'></script>
     <title>I Failed</title>
         </head>
     <body data-gr-c-s-loaded="true">
     
-        <div id="container" class="row">
-            <div id="header" class="jumbotron">
-                <div id="banner">
-                            <h1> Home of something soon to be awesome </h1>
-                        </div>	
-                    <div id="social" class="col-md-6">
-                            <h1>Social Media Icons  </h1>
-                        </div>
-                        <div id="oneofus" class="col-md-6">
-                 <!---
-                    should we delete this block since we have a sign up form?
-                 <ul>
-                   <li><p>Username:________</p></li>
-                       <li><p>Password:_________</p></li>
-                       <li><p>login</p></li>
-                       <li><p>Email:_________</p></li>
-                       <li><p>Subscribe</p></li>
-                   <li><p>Go to the Sign up Page?</p></li>
-                 </ul> -->
-                 <!-- Sign Up Form-->
-                 <form action="" method="POST">
-                     <p><input class="form-control" type="text" name="username" value=""></p>
-                     <p><input class="form-control" type="password" name="password" value=""></p>
-                     <p><input class="form-control" type="email" name="user" value=""></p>
-                     <p><input type="checkbox" name="subscribe"> Check to subscribe to our newsletter</p>
-                     <p><input class="btn btn-primary" type="submit" name="signup" value="Sign Up"></p>
-                 </form>
-                       </div>
-    
-            </div> <!-- end header-->
-            <!-- this is my comment -->
-            <div id="content" class="row">
-                <div id="nav" class="col-md-12">
-                    <h3>Navigation</h3>	
-                    <ul>
-                        <li>Home</li>
-                        <li>IFailed Blog</li>
-                        <li>Shop</li>
-                </ul></div>
-                <div id="main" class="col-md-3">
-                    <div id="liberal">
-                            <p>Left Column</p>
-                    </div>
-                    <div id="centrist" class="col-md-3">
-                        <p>Central Column</p>	
-                    </div>
-                    <div id="republican" class="col-md-3">
-                        <p>Right column</p>
-                    </div>
+    <div class="container-fluid">
+        <div class="row">
+        <div class="col-md-4 alert-success">
+            <p>I Failed</p>
+        </div>
+        <div class="col-md-4 alert-danger ">
+                <div class="col-md-5 float-left alert-danger w-75 p-3">
+                    <p>1</p>
                 </div>
+                <div class="col-md-5 float-left alert-primary  w-75 p-3">
+                    <p>2</p>
+                </div>
+        
+                <div class="col-md-5 alert-danger float-left  w-75 p-3">
+                    <p>3</p>
+                </div>
+                <div class="col-md-5 float-left alert-primary  w-75 p-3">
+                    <p>4</p>
+                </div>
+                <div class="col-md-12" style="clear:both;">
+                    <h1 class="text-center">Site Title</h1>
+                </div>
+        </div>
+        <div class="col-md-4 alert-primary">
+        <h1>Subscribe</h1>
+        <p>We will notify you with updates via email/text.</p>
+        <div class="input-group">
+            <input type="text" class="form-control col-md-4" placeholder="email@domain.com">
+            <span class="input-group-btn">
+                 <button class="btn btn-primary" type="button">Notify me!</button>
+            </span>
+         </div>
+         <span class="input-group-btn">
+            <button class="btn btn-danger" type="button">Login</button>
+            <button class="btn btn-success" type="button">Sign Up</button>
+       </span>
+        </div>
+    </div>
+
+    <div class="row">
+        <div class="col-md-4">
+            <div class="row">
+            <div class="well col-md-12">
+            <h2>Article</h2>
+            <p><img style="width:10rem;" class="float-left" src="https://cdn.shopify.com/s/files/1/0533/2089/files/placeholder-images-image_large.png?format=jpg&quality=90&v=1530129081"> Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+                In quis efficitur tortor. Vivamus sit amet turpis diam. 
+                Maecenas tristique sodales lorem, ut congue tellus. Praesent 
+                luctus egestas justo at placerat. <a href="">Read more.</a>
+            </p>
             </div>
-            <footer>
-                <p>&copy; <?=date("Y")?></p>
-            </footer>
-        </div> 
-    
+            </div>
+
+            <div class="row">
+                <div class="well col-md-12">
+                <h2>Article</h2>
+                <p><img style="width:10rem;" class="float-left" src="https://cdn.shopify.com/s/files/1/0533/2089/files/placeholder-images-image_large.png?format=jpg&quality=90&v=1530129081"> Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+                    In quis efficitur tortor. Vivamus sit amet turpis diam. 
+                    Maecenas tristique sodales lorem, ut congue tellus. Praesent 
+                    luctus egestas justo at placerat. <a href="">Read more.</a>
+                </p>
+                </div>
+                </div>
+
+                <div class="row">
+                    <div class="well col-md-12">
+                    <h2>Article</h2>
+                    <p><img style="width:10rem;" class="float-left" src="https://cdn.shopify.com/s/files/1/0533/2089/files/placeholder-images-image_large.png?format=jpg&quality=90&v=1530129081"> Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+                        In quis efficitur tortor. Vivamus sit amet turpis diam. 
+                        Maecenas tristique sodales lorem, ut congue tellus. Praesent 
+                        luctus egestas justo at placerat. <a href="">Read more.</a>
+                    </p>
+                    </div>
+                    </div>
+           
+     
+
+
+
+          
+        </div>
+
+        <div class="col-md-4">
+            <h2 class="text-center">Latest Blog Article</h2>
+            <p class="text-center"><img style="width:75%;" src="https://therajdhani.com/wp-content/uploads/2019/04/vga.png"></p>
+            <p class="text-justify">Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+                In quis efficitur tortor. Vivamus sit amet turpis diam. 
+                Maecenas tristique sodales lorem, ut congue tellus. Praesent 
+                luctus egestas justo at placerat. Pellentesque a lectus mollis
+                 sapien venenatis finibus eget in ipsum. Donec congue justo vitae 
+                 diam molestie, eget tincidunt dui ultricies. Fusce sit amet mollis 
+                 enim. Fusce suscipit magna risus, vel posuere est rhoncus et. Mauris
+                  mi lacus, vestibulum ut ipsum volutpat, rhoncus mollis libero.
+                 Mauris et blandit erat. Quisque pellentesque nisi ut libero cursus, 
+                 ut ornare lacus faucibus. Quisque sed libero molestie, semper nunc et,
+                  lacinia sapien.
+            </p>
+
+        </div>
+
+        <div class="col-md-4">
+            <div class="input-group mb-3">
+                <div class="input-group-prepend">
+                  <span class="input-group-text" id="basic-addon1"><i class="fas fa-search"></i></span>
+                </div>
+                <input type="text" class="form-control" placeholder="Search" aria-label="Search" aria-describedby="basic-addon1">
+              </div>
+        </div>
+        
+    </div>
+
+    <footer>
+    <p class="text-center">&copy; IFailed 2020</p>
+    </footer>
+
+<!-- end container-->    
+</div>
+
+<style>
+    .clearfix::after {
+    content: "";
+    clear: both;
+     display: table;
+}
+</style>
     
     </body></html>
+
